@@ -8,10 +8,10 @@ let timer = 0;
 
 function stopwatch() {
     seconds++;
-    if (seconds == 60) {
+    if (seconds === 60) {
         seconds = 0;
         minutes++;
-        if (minutes == 60) {
+        if (minutes === 60) {
             minutes = 0;
             hours++
         }
